@@ -1,5 +1,5 @@
 # Personal Website
-Personal website to house my work experience and contact information.
+Personal website to house my work experience and contact information. A digital resume.
 
 ## Dependencies
 Bootstrap 5.2.1
