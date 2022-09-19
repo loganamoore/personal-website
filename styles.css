@@ -15,6 +15,7 @@ footer{
   border-top: 1px dotted #000;
   margin-top: 3rem;
   padding-top: 1rem;
+  text-align: center;
 }
 
 a, a:hover, a:visited, a:active{
@@ -39,8 +40,11 @@ ul, ol{
 }
 
 @media(max-width: 767px){
+  header, #info{
+    text-align: center;
+  }
+
   #info{
-    text-align: left;
     margin-top: 2rem;
   }
 }
@@ -53,13 +57,17 @@ ul, ol{
   margin-right: 0.5rem;
 }
 
-#social-media{
+#social-media, #expertise{
   margin-top: 2rem;
 }
 
 #social-media li{
   display: inline-block;
   margin-right: 1.5rem;
+}
+
+#social-media li:last-of-type{
+  margin-right: 0;
 }
 
 #work-history{
